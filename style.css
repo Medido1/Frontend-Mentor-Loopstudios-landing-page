@@ -142,6 +142,7 @@ h1 {
     background-size: cover;
     padding: 4rem 8rem;
   }
+
   .open_menu_btn,
   .close_menu_btn,
   .mobile_menu .logo {
@@ -162,7 +163,7 @@ h1 {
     opacity: 1;
   }
   h1 {
-    font-size: 3.2rem;
+    font-size: 4rem;
     margin-top: 6rem;
   }
   .main {
