@@ -16,10 +16,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
 img, picture, svg {
   display: block;
   max-width: 100%;
@@ -114,6 +110,32 @@ h1 {
 .mobile_menu li a:hover .border {
   opacity: 1;
 }
+/* Main */
+.main {
+  padding: 4rem 2rem;
+  font-family: var(--joesfin);
+}
+
+.introduction {
+  text-align: center;
+  position: relative;
+  max-width: 1500px;
+  width: 100%;
+}
+
+.introduction h2 {
+  font-weight: 300;
+  font-size: 2.4em;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.introduction p {
+  color: var(--Very_Dark_Gray);
+  line-height: 1.5;
+}
 @media (min-width: 768px) {
   .header {
     background: url(./images/desktop/image-hero.jpg) no-repeat;
@@ -142,5 +164,23 @@ h1 {
   h1 {
     font-size: 3.2rem;
     margin-top: 6rem;
+  }
+  .main {
+    padding: 8rem 10rem;
+  }
+  .interactive_img {
+    width: 60%;
+  }
+  .introduction h2 {
+    margin-top: 0;
+  }
+  .introduction .text_container {
+    position: absolute;
+    background-color: var(--White);
+    top: 40%;
+    left: 48%;
+    padding: 6rem;
+    text-align: left;
+    max-width: 50%;
   }
 }
