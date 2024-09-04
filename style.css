@@ -136,13 +136,63 @@ h1 {
   color: var(--Very_Dark_Gray);
   line-height: 1.5;
 }
+/* creation_section */
+.creation_section {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.creation_section h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.creation_section picture {
+  position: relative;
+}
+
+.creation_section h3 {
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 14%;
+  left: 4%;
+  max-width: 60%;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+.desktop_btn,
+.mobile_btn {
+  border: 1px solid black;
+  padding: .75rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.desktop_btn {
+  display: none;
+}
+.desktop_btn:hover {
+  background-color: var(--Black);
+  color: white;
+}
+.mobile_btn {
+  align-self: center;
+}
+.creations {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
 @media (min-width: 768px) {
   .header {
     background: url(./images/desktop/image-hero.jpg) no-repeat;
     background-size: cover;
     padding: 4rem 8rem;
   }
-
   .open_menu_btn,
   .close_menu_btn,
   .mobile_menu .logo {
@@ -169,11 +219,43 @@ h1 {
   .main {
     padding: 8rem 10rem;
   }
-  .interactive_img {
-    width: 60%;
-  }
   .introduction h2 {
     margin-top: 0;
+  }
+  .creation_section {
+    margin-top: 10rem;
+  }
+  .creation_section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .creation_section h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  .desktop_btn {
+    display: block;
+  }
+  .mobile_btn {
+    display: none;
+  }
+  .creation_section h3 {
+    font-size: 2rem;
+    left: 6%;
+    bottom: 8%;
+  }
+  .creations {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .interactive_img {
+    width: 60%;
   }
   .introduction .text_container {
     position: absolute;
@@ -182,6 +264,5 @@ h1 {
     left: 48%;
     padding: 6rem;
     text-align: left;
-    max-width: 50%;
   }
 }
