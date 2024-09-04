@@ -21,15 +21,16 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
+### Links
+
+- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Loopstudios-landing-page)
+- Live Site URL: [live site](https://medido1.github.io/Frontend-Mentor-Loopstudios-landing-page/)
+
 ### Screenshot
   # Desktop
   ![](./screenshots/desktopSS.png)
   # Mobile
   ![](./screenshots/mobileSS.png)
-### Links
-
-- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Loopstudios-landing-page)
-- Live Site URL: [live site](https://medido1.github.io/Frontend-Mentor-Loopstudios-landing-page/)
 
 ## My process
 
